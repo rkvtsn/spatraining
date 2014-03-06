@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using Breeze.ContextProvider;
 using Breeze.ContextProvider.EF6;
-using Newtonsoft.Json.Linq;
 using CC.Model;
+using Newtonsoft.Json.Linq;
 
 namespace CC.DataAccess
 {
@@ -11,6 +11,8 @@ namespace CC.DataAccess
     /// </summary>
     public class CodeCamperRepository
     {
+
+
         private readonly EFContextProvider<CodeCamperDbContext>
             _contextProvider = new EFContextProvider<CodeCamperDbContext>();
 
